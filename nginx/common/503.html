@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="5">
+    <title>Paciencia, campeón</title>
+    <style>
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            text-align: center;
+            max-width: 400px;
+        }
+
+        .icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+            display: inline-block;
+            animation: sweat 2s infinite;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #7f8c8d;
+        }
+
+        .timer {
+            margin-top: 25px;
+            font-weight: bold;
+            color: #3498db;
+            font-size: 14px;
+        }
+
+        @keyframes sweat {
+
+            0%,
+            100% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            25% {
+                transform: translateY(-5px) rotate(-5deg);
+            }
+
+            75% {
+                transform: translateY(-5px) rotate(5deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8355c42b-bec4-426e-a0fa-f39523ea6c02/da74aa6-367253cd-ef9e-41fe-83df-64b857675335.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi84MzU1YzQyYi1iZWM0LTQyNmUtYTBmYS1mMzk1MjNlYTZjMDIvZGE3NGFhNi0zNjcyNTNjZC1lZjllLTQxZmUtODNkZi02NGI4NTc2NzUzMzUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.uuNdfcFH4cKgaOfUAV9Xv6PbRdRTVgJKjzfTvTH_UTw"
+            width="50%" />
+        <h1>Vamo' a calmarno'</h1>
+        <p>Parece que le estás dando mucho al <strong>F5</strong> y el servidor no está para eso.</p>
+
+        <p>Vamos a tomar un respiro de 5 segundos.</p>
+        <div class="timer">Reintentando conexión automáticamente...</div>
+    </div>
+</body>
+
+</html>
