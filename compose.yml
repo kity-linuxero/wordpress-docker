@@ -62,7 +62,7 @@
     networks:
       - idep_net_db
     healthcheck:
-      test: ["CMD-SHELL", "mysql --user=${WORDPRESS_DB_USER} --password=${WORDPRESS_DB_PASSWORD} --execute 'SELECT 1' || exit 1"]
+      test: ["CMD-SHELL", "mysql --user=${IDEP_WP_DB_USER} --password=${IDEP_WP_DB_PASSWORD} --execute 'SELECT 1' || exit 1"]
       interval: 30s
       timeout: 10s
       retries: 5
